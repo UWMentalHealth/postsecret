@@ -1,0 +1,3 @@
+[submodule "themes/photo-grid"]
+	path = themes/photo-grid
+	url = git@github.com:Chen-Zhe/photo-grid.git
