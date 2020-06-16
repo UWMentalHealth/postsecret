@@ -11,7 +11,15 @@
   </url>
   
   <url>
+    <loc>https://renonat.github.io/postsecret/photo/</loc>
+  </url>
+  
+  <url>
     <loc>https://renonat.github.io/postsecret/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://renonat.github.io/postsecret/photo/test_folder/</loc>
   </url>
   
 </urlset>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>EngSoc Post Secret Service</title>
-    <link>https://renonat.github.io/postsecret/</link>
-    <description>Recent content on EngSoc Post Secret Service</description>
+    <title>Photos on EngSoc Post Secret Service</title>
+    <link>https://renonat.github.io/postsecret/photo/</link>
+    <description>Recent content in Photos on EngSoc Post Secret Service</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://renonat.github.io/postsecret/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://renonat.github.io/postsecret/photo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
