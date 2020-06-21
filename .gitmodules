@@ -1,4 +1,0 @@
-[submodule "themes/photo-grid"]
-	path = themes/photo-grid
-	url = git@github.com:renonat/photo-grid.git
-	branch = master

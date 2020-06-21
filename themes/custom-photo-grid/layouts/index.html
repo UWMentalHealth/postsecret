@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+	{{ partial "head.html" . }}
+	</head>
+	<body>
+		<div class="container">	
+            {{ partial "header.html" . }}
+			<div class="main">
+                <div class="row justify-content-center">
+                    {{ range $page := sort (where .Site.RegularPages "Type" "photo") ".File.Dir" }}
+                    {{ range $index, $image := sort ($page.Resources.ByType "image") "Params.order" }}
+                    <div class="col-auto">
+                        <a href="#" class="d-block pb-4 h-100">
+                            {{ if isset $image.Params "explicit" }}
+								{{ $.Scratch.Set "thumbnail" ($temp_image := $image.Resize "x250" | images.Filter (images.GaussianBlur 10) (images.Pixelate 4)) }}
+							{{- else }}
+								{{ $.Scratch.Set "thumbnail" ($image.Resize "x250") }}
+                            {{- end }}
+                            <div class="position-relative">
+                                <img class="img-fluid" src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" alt=""/>
+                                {{ if isset $image.Params "explicit" }}
+                                <div class="overlay-block">
+                                    <span class="caption text-center">{{ $image.Params.warning }}</span>
+                                </div>
+                                {{ end }}
+                            </div>
+                        </a>
+                    </div>
+                    {{ end }}
+					{{ end }}
+                </div>
+				{{ partial "footer.html" . }}
+			</div>
+		</div>
+		{{ partial "scripts.html" . }}
+	</body>
+</html>

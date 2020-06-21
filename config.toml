@@ -2,16 +2,15 @@
 baseurl = "https://renonat.github.io/postsecret/"
 languageCode = "en-us"
 title = "EngSoc Post Secret Service"
-theme = "photo-grid"
+theme = "custom-photo-grid"
 
 # Enter your tracking code to enable Google Analytics
 # googleAnalytics = "UA-XXXXXXXX-Y"x
 
 [params]
     # Meta
-    no_exif = true
     title = "EngSoc Post Secret Service"
-    subtitle = "TODO"
+    subtitle = "subtitle TODO"
     author = "Reno Natalizio"
     description = "EngSoc Post Secret Service"
     keywords = ""
@@ -21,5 +20,5 @@ theme = "photo-grid"
     bodytextcolor = "#f2f2f2"
 
     # Footer text
-    footertext = "This is a footer"
+    footertext = "footer TODO"
 

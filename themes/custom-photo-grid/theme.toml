@@ -1,0 +1,11 @@
+name = "Post Secret Photo Grid"
+license = ""
+licenselink = ""
+description = ""
+homepage = ""
+tags = []
+min_version = "0.59.0"
+
+[author]
+  name = "Reno Natalizio"
+  homepage = ""
