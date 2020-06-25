@@ -1,38 +1,61 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-	<head>
-	{{ partial "head.html" . }}
-	</head>
-	<body>
-		<div class="container">	
-            {{ partial "header.html" . }}
-			<div class="main">
-                <div class="row justify-content-center">
-                    {{ range $page := sort (where .Site.RegularPages "Type" "photo") ".File.Dir" }}
-                    {{ range $index, $image := sort ($page.Resources.ByType "image") "Params.order" }}
-                    <div class="col-auto">
-                        <a href="#" class="d-block pb-4 h-100">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    <div class="container">	
+        {{ partial "header.html" . }}
+        <div class="main">
+            <div class="row justify-content-center">
+                {{ range $page := sort (where .Site.RegularPages "Type" "photo") ".File.Dir" }}
+                {{ range $index, $image := sort ($page.Resources.ByType "image") "Params.order" }}
+                <div class="col-auto">
+                    <a class="d-block pb-4 h-100" data-toggle="modal" data-target="#image-{{ $index }}">
+                        {{ if isset $image.Params "explicit" }}
+                        {{ $.Scratch.Set "thumbnail" ($temp_image := $image.Resize "x250" | images.Filter (images.GaussianBlur 10) (images.Pixelate 4)) }}
+                        {{- else }}
+                        {{ $.Scratch.Set "thumbnail" ($image.Resize "x250") }}
+                        {{- end }}
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" alt=""/>
                             {{ if isset $image.Params "explicit" }}
-								{{ $.Scratch.Set "thumbnail" ($temp_image := $image.Resize "x250" | images.Filter (images.GaussianBlur 10) (images.Pixelate 4)) }}
-							{{- else }}
-								{{ $.Scratch.Set "thumbnail" ($image.Resize "x250") }}
-                            {{- end }}
-                            <div class="position-relative">
-                                <img class="img-fluid" src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" alt=""/>
-                                {{ if isset $image.Params "explicit" }}
-                                <div class="overlay-block">
-                                    <span class="caption text-center">{{ $image.Params.warning }}</span>
+                            <div class="overlay-block">
+                                <span class="caption text-center">{{ $image.Params.warning }}</span>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </a>
+                    <div class="modal fade" id="image-{{ $index }}" role="dialog">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">{{ $image.Name }}</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-4" >
+                                        <span >{{ $image.Params.description }}</span>
+                                    </div>
+                                    <img class="img-fluid" src="{{ $image.RelPermalink }}"/>
+                                </div>
+                                {{ if isset $image.Params "button_text" }}
+                                <div class="modal-footer">
+                                    <a class="btn btn-primary" href="{{ $image.Params.button_url }}">{{ $image.Params.button_text }}</a>
                                 </div>
                                 {{ end }}
                             </div>
-                        </a>
+                        </div>
                     </div>
-                    {{ end }}
-					{{ end }}
                 </div>
-				{{ partial "footer.html" . }}
-			</div>
-		</div>
-		{{ partial "scripts.html" . }}
-	</body>
+                {{ end }}
+                {{ end }}
+            </div>
+            {{ partial "footer.html" . }}
+        </div>
+    </div>
+    {{ partial "scripts.html" . }}
+</body>
 </html>
