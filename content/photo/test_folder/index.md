@@ -8,8 +8,6 @@ resources:
   params:
     order: 1
     description: Photo description. If you want to add your own link, specify button_text and button_url here.
-    button_text: Links to resources
-    button_url: "https://www.google.com"
 
 - src: yosemite.jpg
   name: "Explicit image"
