@@ -18,7 +18,7 @@
                         {{ $.Scratch.Set "thumbnail" ($image.Resize "x250") }}
                         {{- end }}
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" alt=""/>
+                            <img class="img-fluid" src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" alt="{{ $image.Params.alt_text }}"/>
                             {{ if isset $image.Params "explicit" }}
                             <div class="overlay-block">
                                 <span class="caption text-center">{{ $image.Params.warning }}</span>
@@ -39,7 +39,7 @@
                                     <div class="mb-4" >
                                         <span >{{ $image.Params.description }}</span>
                                     </div>
-                                    <img class="img-fluid" src="{{ $image.RelPermalink }}"/>
+                                    <img class="img-fluid" src="{{ $image.RelPermalink }}" alt="{{ $image.Params.alt_text }}"/>
                                 </div>
                                 {{ if isset $image.Params "button_text" }}
                                 <div class="modal-footer">

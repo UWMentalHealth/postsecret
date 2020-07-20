@@ -9,16 +9,18 @@ resources:
     order: 1
     description: Photo description. If you want to add your own link, specify button_text and button_url here.
     button_text: Links to resources
-    button_url: "https://www.google.com"
+    button_url: https://www.google.com
+    alt_text: Accessible transcription of my photo.
 
 - src: mysecondpicture.jpg
   name: "Explicit image"
   params:
     order: 2
     explicit: true
-    warning: "This image contains sensitive content"
+    warning: This image contains sensitive content
     description: Photo description. If you want to add your own link, specify button_text and button_url here.
     button_text: Links to resources
-    button_url: "https://www.google.com"
+    button_url: https://www.google.com
+    alt_text: Accessible transcription of my photo.
 
 ---
