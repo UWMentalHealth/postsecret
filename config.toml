@@ -10,7 +10,7 @@ theme = "custom-photo-grid"
 [params]
     # Meta
     title = "EngSoc Post Secret Service"
-    subtitle = "subtitle TODO"
+    subtitle = "Have a secret you want to share? EngSoc organizes Post Secret as a way for students to anonymously get anything they want off their chest. Here's a collection of what's been submitted recently to our virtual POETS."
     author = "Reno Natalizio"
     description = "EngSoc Post Secret Service"
     keywords = ""
