@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    {{ with .Site.GetPage "/home" }}
+    <div class="container">	
+        <header>
+            <h1>EngSoc Post Secret Service</h1>
+        </header>
+        <p>
+            The original Post-Secret project started in 2005, where people mailed in anonymous 
+            postcards with an unspoken and honest secret as contributions to an ongoing art project. 
+            While the original project operated as a continuously updating art exhibit both on and 
+            offline, numerous other post-secret movements have sprung up, including one right at 
+            Waterloo Engineering.
+        </p>
+        <p>
+            Here at uWaterloo, we know that there are a lot of things left unsaid, especially about 
+            mental health. When things get overly stressful, people often turn inward. Post-Secret 
+            provides a space for student to get thoughts off their chest and out of their minds, 
+            regardless of what those thoughts contain. By posting them in a public location, this 
+            term on our virtual wall, students can read and share in the knowledge that others have 
+            similar thoughts and that they really are not alone.
+        </p>
+        <div class="alert alert-warning" role="alert">
+            <h4 class="alert-heading">Content Warning</h4>
+            The posts on our site deal with sensitive topics so please read and share accordingly.
+        </div>
+        <p>
+            We encourage you to take a moment to reflect on your mental health and your experiences. 
+            If you have any anonymous secrets, confessions, or just about anything you want to get 
+            off your chest, you can anonymously submit them here: TODO
+        </p>
+        <div class="text-center">
+            <a type="button" class="btn btn-primary btn-large" href="../index.html">Continue to our Wall of Posts</a>
+        </div>
+    </div>
+    {{ end }}
+    {{ partial "scripts.html" . }}
+</body>
+</html>

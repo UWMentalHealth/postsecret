@@ -9,9 +9,9 @@ theme = "custom-photo-grid"
 
 [params]
     # Meta
-    title = "EngSoc Post Secret Service"
-    subtitle = "Have a secret you want to share? EngSoc organizes Post Secret as a way for students to anonymously get anything they want off their chest. Here's a collection of what's been submitted recently to our virtual POETS."
-    author = "Reno Natalizio"
+    title = "EngSoc Post Secret Wall"
+    subtitle = "Have a secret you want to share? EngSoc organizes Post Secret as a way for students to anonymously get anything they want off their chest."
+    author = "EngSoc MentalHealth"
     description = "EngSoc Post Secret Service"
     keywords = ""
 
@@ -20,5 +20,4 @@ theme = "custom-photo-grid"
     bodytextcolor = "#f2f2f2"
 
     # Footer text
-    footertext = "footer TODO"
-
+    # footer = Footer text
