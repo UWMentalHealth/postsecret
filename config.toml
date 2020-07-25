@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://renonat.github.io/postsecret/"
+baseurl = "https://UWMentalHealth.github.io/postsecret/"
 languageCode = "en-us"
 title = "EngSoc Post Secret Service"
 theme = "custom-photo-grid"
