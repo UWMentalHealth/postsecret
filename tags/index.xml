@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on EngSoc Post Secret Service</title>
-    <link>https://renonat.github.io/postsecret/tags/</link>
+    <link>https://UWMentalHealth.github.io/postsecret/tags/</link>
     <description>Recent content in Tags on EngSoc Post Secret Service</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://renonat.github.io/postsecret/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://UWMentalHealth.github.io/postsecret/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

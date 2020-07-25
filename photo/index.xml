@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photos on EngSoc Post Secret Service</title>
-    <link>https://renonat.github.io/postsecret/photo/</link>
+    <link>https://UWMentalHealth.github.io/postsecret/photo/</link>
     <description>Recent content in Photos on EngSoc Post Secret Service</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://renonat.github.io/postsecret/photo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://UWMentalHealth.github.io/postsecret/photo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test Series</title>
-      <link>https://renonat.github.io/postsecret/photo/test_folder/</link>
+      <link>https://UWMentalHealth.github.io/postsecret/photo/test_folder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://renonat.github.io/postsecret/photo/test_folder/</guid>
+      <guid>https://UWMentalHealth.github.io/postsecret/photo/test_folder/</guid>
       <description></description>
     </item>
     
