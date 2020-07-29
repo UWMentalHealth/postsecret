@@ -1,6 +1,7 @@
 // Default themes
 
-$primary-color: rgb(130, 36, 227);
+$primary-color: rgb(87, 5, 139);
+$font-family-base: 'Montserrat', sans-serif;
 
 .container > header {
 	width: 90%;
@@ -15,19 +16,42 @@ $primary-color: rgb(130, 36, 227);
 .container > header h1 {
 	font-size: 40px;
 	margin: 0 0 0.5em 0;
-	font-family: 'Indie Flower', cursive;
+	font-family: $font-family-base;
+	font-weight: 800;
 }
 
 .container > header span {
 	display: block;
-	font-weight: 300;
+	font-weight: 400;
+	font-family: $font-family-base;
 	text-align: center;
 	padding-bottom: 0.5em;
+}
+
+.container {
+	font-family: $font-family-base;
+}
+
+.alert {
+	font-family: $font-family-base;
+}
+
+.alert-heading {
+	font-weight: 600;
+}
+
+.navbar {
+	font-family: $font-family-base;
+}
+
+.navbar-brand {
+	font-weight: 800;
 }
 
 .main > p {
 	text-align: center;
 	padding: 50px 20px;
+	font-weight: 400;
 }
 
 // Component themes
@@ -40,8 +64,8 @@ $primary-color: rgb(130, 36, 227);
     margin-right: -50%;
     transform: translate(-50%, -50%);
 	color: white;
-	font-size: 1.4rem;
-	font-weight: 600;
+	font-size: 1.2rem;
+	font-weight: 400;
 	padding: 1em;
 }
 
@@ -64,4 +88,8 @@ $primary-color: rgb(130, 36, 227);
 
 .breadcrumb-item > a {
 	color: $primary-color !important;
+}
+
+.h5 {
+	font-weight: 600 !important;
 }

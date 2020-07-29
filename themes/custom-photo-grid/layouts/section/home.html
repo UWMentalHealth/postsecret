@@ -7,6 +7,8 @@
     {{ with .Site.GetPage "/home" }}
     <div class="container pb-4">	
         <header>
+            {{- $logo := resources.Get "img/engsoc_logo.png" }}
+            <img src="{{ $logo.Permalink }}" width="150" height="150" class="mb-4" alt="The EngSoc Logo">
             <h1>EngSoc Post Secret Service</h1>
         </header>
         <p>
