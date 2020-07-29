@@ -6,6 +6,7 @@ Website homepage can be found at https://uwmentalhealth.github.io/postsecret/hom
 
 ## Adding content
 TODO
+- To have new posts appear at the top of the page, use negative numbers for the order values.
 
 ## Development
 The site uses Hugo with a custom theme to generate the static website from a simple content format.
