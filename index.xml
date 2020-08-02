@@ -11,11 +11,20 @@
     
     
     <item>
-      <title>Test Series</title>
-      <link>https://UWMentalHealth.github.io/postsecret/photo/test_folder/</link>
+      <title>Fall 2020 Term</title>
+      <link>https://UWMentalHealth.github.io/postsecret/photo/2020_3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://UWMentalHealth.github.io/postsecret/photo/test_folder/</guid>
+      <guid>https://UWMentalHealth.github.io/postsecret/photo/2020_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test Series</title>
+      <link>https://UWMentalHealth.github.io/postsecret/photo/example_term/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://UWMentalHealth.github.io/postsecret/photo/example_term/</guid>
       <description></description>
     </item>
     
