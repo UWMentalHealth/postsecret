@@ -40,8 +40,8 @@
                         {{- else }}
                         {{ $.Scratch.Set "thumbnail" ($image.Resize "x250") }}
                         {{- end }}
-                        <div aria-hidden="true" class="position-relative">
-                            <img class="img-fluid" src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" alt="{{ $image.Params.alt_text }}"/>
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" alt="{{ $image.Params.alt_text }}" aria-hidden="true"/>
                             {{ if isset $image.Params "explicit" }}
                             <div class="overlay-block">
                                 <span class="caption text-center">{{ $image.Params.warning }}</span>
