@@ -2,7 +2,7 @@
 
 ![Hugo Build](https://github.com/uwmentalhealth/postsecret/workflows/Hugo%20Build/badge.svg?branch=master&event=push)
 
-Website homepage can be found at https://uwmentalhealth.github.io/postsecret/home/
+Website homepage can be found at https://uwmentalhealth.github.io/postsecret/home/ or https://bit.ly/PostSecretF20
 
 ## Content Management
 - Content is located in the `content/photo` folder
