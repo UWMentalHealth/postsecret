@@ -5,10 +5,6 @@
     <link>https://UWMentalHealth.github.io/postsecret/home/</link>
     <description>Recent content on EngSoc Post Secret Service</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://UWMentalHealth.github.io/postsecret/home/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://UWMentalHealth.github.io/postsecret/home/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

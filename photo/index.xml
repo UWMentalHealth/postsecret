@@ -5,11 +5,7 @@
     <link>https://UWMentalHealth.github.io/postsecret/photo/</link>
     <description>Recent content in Photos on EngSoc Post Secret Service</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://UWMentalHealth.github.io/postsecret/photo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://UWMentalHealth.github.io/postsecret/photo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall 2020 Term</title>
       <link>https://UWMentalHealth.github.io/postsecret/photo/2020_3/</link>
