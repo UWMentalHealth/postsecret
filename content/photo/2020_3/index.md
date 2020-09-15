@@ -13,4 +13,11 @@ resources:
   params:
     order: 2
     alt_text: With all my friends in Waterloo and me living at home, I'm worried that they'll forget about me :( I hope they don't get caught up in their own lives and think about me like I think about them.
+
+- src: 09142020.JPG
+  name: Sept 14, 2020
+  params:
+    order: 3
+    alt_text: I feel like I'm always the tag-along. I'm no ones number one, I'm just someone who happens to be invited, and is tolerated, not anticipated. I just wish people cared more about having me there, and that people wanted to spend time with me alone, not just as part of the group
+
 ---
