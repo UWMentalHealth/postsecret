@@ -20,4 +20,10 @@ resources:
     order: 3
     alt_text: I feel like I'm always the tag-along. I'm no ones number one, I'm just someone who happens to be invited, and is tolerated, not anticipated. I just wish people cared more about having me there, and that people wanted to spend time with me alone, not just as part of the group
 
+- src: 09172020.JPG
+  name: Sept 17, 2020
+  params:
+    order: 4
+    alt_text: I stole the ASG sign from the SYDE lounge. It was meant to be a joke with a big punch line that everyone would see. A week later campus was shut down and I couldn’t reveal the punch line or return it to the SYDE lounge. It’s been chilling in my room for 6 months, a constant reminder of the all-encompassing guilt I feel.
+
 ---
