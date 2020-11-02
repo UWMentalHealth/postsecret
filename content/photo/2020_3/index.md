@@ -26,4 +26,10 @@ resources:
     order: 4
     alt_text: I stole the ASG sign from the SYDE lounge. It was meant to be a joke with a big punch line that everyone would see. A week later campus was shut down and I couldn’t reveal the punch line or return it to the SYDE lounge. It’s been chilling in my room for 6 months, a constant reminder of the all-encompassing guilt I feel.
 
+- src: 11012020.png
+  name: Nov 01, 2020
+  params:
+    order: 5
+    alt_text: The days are getting shorter and holy did it hit today with the time change. It is dark and cold and i'm just in my room trying not to cry, wishing someone would come give me a hug, but no, I need to do my lab, and my CSE project and my FYDP. So as much as I would like to sleep the dark away, I guess I'll just stay up and put my plants on my desk and drink my tea...
+
 ---
