@@ -32,4 +32,10 @@ resources:
     order: 5
     alt_text: The days are getting shorter and holy did it hit today with the time change. It is dark and cold and i'm just in my room trying not to cry, wishing someone would come give me a hug, but no, I need to do my lab, and my CSE project and my FYDP. So as much as I would like to sleep the dark away, I guess I'll just stay up and put my plants on my desk and drink my tea...
 
+- src: 11212020.png
+  name: Nov 21, 2020
+  params:
+    order: 6
+    alt_text: I am so freaking sad all the time and I don’t know if that would change even if there wasn’t a global pandemic. Not seeing anyone is really killing me.
+
 ---
