@@ -38,4 +38,10 @@ resources:
     order: 6
     alt_text: I am so freaking sad all the time and I don’t know if that would change even if there wasn’t a global pandemic. Not seeing anyone is really killing me.
 
+- src: 11272020.jpg
+  name: Nov 27, 2020
+  params:
+    order: 7
+    alt_text: This year has just been so hard. I'd never really dealt with grief before, so losing so many people this year has been really tough. I don't know how to feel, or how to comfort friends. I don't know how to keep being a person and a student when it feels like things are just never getting better
+
 ---
