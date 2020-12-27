@@ -2,7 +2,7 @@
 
 ![Hugo Build](https://github.com/uwmentalhealth/postsecret/workflows/Hugo%20Build/badge.svg?branch=master&event=push)
 
-Website homepage can be found at https://uwmentalhealth.github.io/postsecret/home/ or https://bit.ly/PostSecretF20
+Website homepage can be found at https://uwmentalhealth.github.io/postsecret/home/
 
 ## Content Management
 - Content is located in the `content/photo` folder
@@ -52,6 +52,10 @@ resources:
 - Fill in the following variables:
   - `TERM_NAME` - A descriptive name for the term, ex "Fall 202 Term"
 
+### Updating Links
+- When you update the submission link, be sure to edit it in the following files:
+  - `themes/custom-photo-grid/layouts/section/home.html`
+  - `themes/custom-photo-grid/layouts/index.html`
 
 ## Development
 The site uses Hugo with a custom theme to generate the static website from a simple content format.
