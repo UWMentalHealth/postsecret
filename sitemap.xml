@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://UWMentalHealth.github.io/postsecret/home/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://UWMentalHealth.github.io/postsecret/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://UWMentalHealth.github.io/postsecret/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://UWMentalHealth.github.io/postsecret/photo/2020_3/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://UWMentalHealth.github.io/postsecret/photo/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://UWMentalHealth.github.io/postsecret/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://UWMentalHealth.github.io/postsecret/photo/2021_1/</loc>
   </url>
-  
 </urlset>
